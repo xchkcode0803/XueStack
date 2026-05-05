@@ -14,42 +14,10 @@ The goal is simple: make agents follow durable engineering practices, keep code 
 
 ## Skills
 
-### `xue-nextjs-best-practices`
-
-Applies XueStack architecture rules to Next.js App Router projects.
-
-Use it when building, reviewing, or refactoring Next.js apps that need:
-
-- feature-driven project structure
-- clean domain boundaries
-- thin Server Actions
-- service-layer business logic
-- public feature APIs through `index.ts`
-- Drizzle/Postgres guidance when that stack is present
-- modular testing and boundary checks
-
-Location:
-
-```text
-skills/xue-nextjs-best-practices/
-```
-
-### `xue-quality-gate`
-
-Runs final validation and self-review before committing, pushing, opening a PR, or declaring implementation complete.
-
-Use it when a coding task needs:
-
-- repo-specific verification commands
-- CodeRabbit CLI review in agent mode
-- triage of review findings before commit
-- a concise final xue-quality-gate report
-
-Location:
-
-```text
-skills/xue-quality-gate/
-```
+| Skill | Purpose | Use When | Location |
+| --- | --- | --- | --- |
+| `xue-nextjs-best-practices` | Applies XueStack architecture rules to Next.js App Router projects. | Building, reviewing, or refactoring Next.js apps that need feature-driven structure, clean domain boundaries, thin Server Actions, service-layer logic, public feature APIs, Drizzle/Postgres guidance, or modular testing. | `skills/xue-nextjs-best-practices/` |
+| `xue-quality-gate` | Runs final validation and self-review before committing, pushing, opening a PR, or declaring implementation complete. | A coding task needs repo-specific verification, CodeRabbit CLI review in agent mode, review-finding triage, or a concise final quality-gate report. | `skills/xue-quality-gate/` |
 
 ## Repository Structure
 
