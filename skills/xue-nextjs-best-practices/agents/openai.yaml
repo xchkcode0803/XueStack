@@ -1,0 +1,4 @@
+interface:
+  display_name: "Xue Next.js Best Practices"
+  short_description: "Apply XueStack architecture rules to Next.js apps."
+  default_prompt: "Use xue-nextjs-best-practices to build, review, or refactor this Next.js app with feature-driven architecture, clean module boundaries, thin server actions, testable services, and scalable separation of concerns."
