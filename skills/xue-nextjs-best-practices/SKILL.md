@@ -87,3 +87,4 @@ Before finishing a Next.js architecture task, verify:
 - Server Actions do not contain business workflows.
 - Existing conventions are respected unless they conflict with modularity or testability.
 - Validation steps are run or clearly reported as not run.
+- The `xue-quality-gate` skill is run before committing or declaring implementation complete; report if CodeRabbit CLI is unavailable or unauthenticated.

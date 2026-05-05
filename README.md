@@ -34,10 +34,31 @@ Location:
 skills/xue-nextjs-best-practices/
 ```
 
+### `xue-quality-gate`
+
+Runs final validation and self-review before committing, pushing, opening a PR, or declaring implementation complete.
+
+Use it when a coding task needs:
+
+- repo-specific verification commands
+- CodeRabbit CLI review in agent mode
+- triage of review findings before commit
+- a concise final xue-quality-gate report
+
+Location:
+
+```text
+skills/xue-quality-gate/
+```
+
 ## Repository Structure
 
 ```text
 skills/
+  xue-quality-gate/
+    SKILL.md
+    agents/
+      openai.yaml
   xue-nextjs-best-practices/
     SKILL.md
     agents/

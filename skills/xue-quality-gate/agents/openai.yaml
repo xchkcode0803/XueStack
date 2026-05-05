@@ -1,0 +1,4 @@
+interface:
+  display_name: "Xue Quality Gate"
+  short_description: "Run pre-done validation and AI code review."
+  default_prompt: "Use $xue-quality-gate to run final validation, CodeRabbit CLI review, and pre-commit readiness checks before marking this coding task complete."
